@@ -11,7 +11,6 @@ Topic(s): `multi-task`
 citation:
 ```
 @techreport{Ruder2017,
-archivePrefix = {arXiv},
 arxivId = {1706.05098v1},
 author = {Ruder, Sebastian},
 eprint = {1706.05098v1},
@@ -21,50 +20,97 @@ title = {{An Overview of Multi-Task Learning in Deep Neural Networks}},
 url = {http://sebastianruder.com/multi-task/index.},
 year = {2017}
 }
+
 ```
 
 ### Abstract
 
 __*What questions are the authors addressing?*__
 
+What is the current (2017) status of Multi-Task learning?  
+
 __*What is the major finding or scientific contribution*__
+
+Distilling the current knowledge about multi-task learning into a single source
 
 __*What is the work's significance?*__
 
-### Materials and Methods
+It gives an overview of the current techniques and literature around the topic of
+multi-task learning in machine learning.
 
-__*What is their experimental methodology or developed system?*__
+### Motivation of MTL
 
-__*If there are alternative approaches, how did they select this system?*__
+Biologically, you use related information to learn new tasks.  
+Pedagogically, you first learn fundamental tasks before complex tasks.   
+From a machine learning perspective, learning multiple tasks adds a bias for
+finding solutions which can explain more than one task    
 
-__*What would I do differently?*__
+### Methods of MTL
 
-### Results
+There are 2 ways of doing MTL:
+ 1. **hard parameter sharing**: a set of shared layers after which the networks branches with small subnetworks for each task
+ 2. **soft parameter sharing**: distinct network for each task but a set of layers in each network are constrained to be similar
 
-__*What are the conclusions they draw from the data?*__
+### Why does MTL work?
 
-__*How do these results answer the greater question identified in the abstract?*__
+1. Implicit data augmentation: By learning multiple tasks there is a reduced
+change of overfitting by due to averaging the noisy patterns in both datasets
+2. Attention focusing: multiple tasks can provide more evidence that certain
+features are relevant and thus the model can only focus on those features
+3. eavesdropping: some patterns might be obvious in task B while very hard to
+detect in task A
+4. representation bias: features which are good for both tasks have a bias
+5. inductive bias: more than 1 task needs to be explained
 
-__*Do the results lead to the final claims of the paper?*__
+### Techniques in ANN for MTL
 
-### Figures, Tables, and Data
+Most common technique is to do hard-parameter sharing on convolutional layers
+and then have some FC layers for each tasks
 
-__*What data set(s) were used?*__
+Some papers which introduce "better" mechanisms:
 
-__*Can you identify the results in the images/charts/graphs?*__
+1. Deep Relationship networks: FC layers after hard-shared parameters have
+matrix priors
+2. Fully-adaptive feature sharing: a model is iteratively grown which creates
+groups of shared parameters for each tasks
+3. Cross-stitching: A soft-parameter sharing set up where models learn a linear combination of
+each layer of each networks
+4. Low supervision: some tasks should be supervised at lower layers
+5. Joint many-task model: (pre-determined) hierarchy of different models for each task
+6. weighting losses with uncertainty: The loss function takes into account the
+uncertainty of each task
+7. Tensor factorization: The model parameters are split into shared and task-specific
+8. Sluice network: A model which learns what layers and subspaces should be shared
 
-__*What are the controls in the experiments and have they presented them properly?*__
+### Auxiliary tasks
 
-### Conclusions/Discussion
+You can also consider the scenario where you're only interested in performing
+a single task but add "helper" tasks to get the "benefits" of MTL models, which
+can lead to higher accuracies.
 
-__*What do the results mean?*__
+Some examples of this setting are:
 
-__*Can you think of other interpretations of their results?*__
+1. related task: Try to predict things which are in the same domain (e.g detect road signs for the primary task of determining steering commands)
+2. Adversarial: Create the opposite task and train and try to maximize this loss
+3. hints: try to predict a broader setting which has some resemblance (e.g predict whether there is a road when trying to detect holes in a road)
+4. Focusing attention: add a "bias" by forcing the model to learn a certain feature. For example, predict road markings when trying to predict steering
+commands
+5. Quantization smoothing: If problem is discrete, try to have different levels of discretization as each task  
+6. predicting inputs: for some features, turn the feature into something which
+also needs to be predicted (turn input feature into output feature) if it's not
+seen as a valuable feature
+7. Representation learning: Have one task be an auto encoder
 
-__*How would I interpret the data?*__
 
-__*Are there any other implications based on this work?*__
 
 ### Additional notes or thoughts
 
+It would be interesting to see concrete evidence for the claims "why does MTL work"
+
+It's fairly straightforward to initially attempt hard parameter sharing when
+facing a MTL problem. Somehow learning what to share and not to share might have
+benefits, however.
+
 #### Future reading
+
+All the papers mentioned in section 6.
