@@ -84,7 +84,7 @@ def generate_bullet_point(info):
     path_to_md = info['file_path']
     time_spent = info['estimated_minutes']
 
-    return f" * [{title}]({url}) - [summary]({path_to_md}) - {time_spent} minutes)  \n"
+    return f" * [{title}]({url}) - [summary]({path_to_md}) - {time_spent} minutes  \n"
 
 
 def main():

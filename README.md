@@ -25,6 +25,6 @@ Feel free to fork and re-use :)!
 <!---[Title of paper](link to pdf) - [summary/notes](link to markdown) - time spent-->
 <!---REST_OF_FILE_IS_AUTO_GENERATED-->
 ### 2020 - January
- * [Real-time Joint Object Detection and Semantic Segmentation Network for Automated Driving](https://arxiv.org/abs/1901.03912) - [summary](summaries/joint_2dobj_semseg_network.md) - 180 minutes)  
- * [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/abs/1612.07695) - [summary](summaries/multinet_joint_semseg.md) - 180 minutes)  
- * [An Overview of Multi-Task Learning in Deep Neural Networks](https://arxiv.org/abs/1706.05098) - [summary](summaries/overview_multitask_dnn.md) - 180 minutes)  
+ * [Real-time Joint Object Detection and Semantic Segmentation Network for Automated Driving](https://arxiv.org/abs/1901.03912) - [summary](summaries/joint_2dobj_semseg_network.md) - 180 minutes  
+ * [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://arxiv.org/abs/1612.07695) - [summary](summaries/multinet_joint_semseg.md) - 180 minutes  
+ * [An Overview of Multi-Task Learning in Deep Neural Networks](https://arxiv.org/abs/1706.05098) - [summary](summaries/overview_multitask_dnn.md) - 180 minutes  
