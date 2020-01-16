@@ -1,10 +1,13 @@
 ### Insert title
 
+date:   
+Time spent: *x* minutes  
+link to pdf: 
+
+citation:
 ```
 
 ```
-
-Time spent: *x* minutes
 
 ### Abstract
 
@@ -48,6 +51,10 @@ __*How would I interpret the data?*__
 
 __*Are there any other implications based on this work?*__
 
-#### Additional notes or thoughts
+### Additional notes or thoughts
+
+#### Future reading
+
+
 
 
