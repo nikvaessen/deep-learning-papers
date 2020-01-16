@@ -1,15 +1,27 @@
-import shutil
-import datetime
+################################################################################
+# This script will ask the user for some information regarding the soon-to-be
+# read paper before generating the starting point for the summary according to
+# a summary template.
+#
+# Usage: python new_summary.py
+#
+# Author: Nik Vaessen
+################################################################################
+
 import os
 import re
+import datetime
 
 from pathlib import Path
+
+################################################################################
+# Implement functionality of script
 
 title_template_str = "---title---"
 estimated_minutes_template_str = "---time---"
 url_template_str = "---url---"
 date_template_str = "---date---"
-topics_template_str = "---topics---"
+topics_template_str = "---topic---"
 
 
 def main():
@@ -24,7 +36,7 @@ def main():
     filename = input("What should the name of the summary markdown file be?: ")
     url = input("What is the URL of of the article?: ")
     estimated_minutes = input("How many minutes do you expect to read this paper?: ")
-    topics = input("comma-separated list of topics")
+    topics = input("Give a comma-separated list of covered topic(s): ")
     date = datetime.datetime.now().strftime("%Y-%m-%d")
 
     # Insert the information into the template file

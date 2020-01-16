@@ -1,8 +1,9 @@
-### Insert title
+### ---title---
 
-date:   
-Time spent: *x* minutes  
-link to pdf: 
+Read on: ---date---  
+Time spent: *---time---* minutes  
+Link to pdf: ---url---  
+Topic(s): `---topic---`
 
 citation:
 ```
