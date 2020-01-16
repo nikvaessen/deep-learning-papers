@@ -11,6 +11,7 @@
 import os
 import re
 import datetime
+import json
 
 from pathlib import Path
 
@@ -22,6 +23,7 @@ estimated_minutes_template_str = "---time---"
 url_template_str = "---url---"
 date_template_str = "---date---"
 topics_template_str = "---topic---"
+meta_json_template_str = "---json---"
 
 
 def main():
@@ -38,6 +40,13 @@ def main():
     estimated_minutes = input("How many minutes do you expect to read this paper?: ")
     topics = input("Give a comma-separated list of covered topic(s): ")
     date = datetime.datetime.now().strftime("%Y-%m-%d")
+    meta_obj = json.dumps({
+        "title": title,
+        "url": url,
+        "topics": topics,
+        "date": date,
+        "estimated_minutes": estimated_minutes
+    })
 
     # Insert the information into the template file
     file = Path("summary_template.md").read_text()
@@ -47,6 +56,7 @@ def main():
     file = re.sub(url_template_str, url, file)
     file = re.sub(date_template_str, date, file)
     file = re.sub(topics_template_str, topics, file)
+    file = re.sub(meta_json_template_str, meta_obj, file)
 
     # Create the new summary file
     summaries_dir = os.path.join(root_dir, "summaries")

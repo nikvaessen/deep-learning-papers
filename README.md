@@ -17,13 +17,10 @@ of how much time I spent on each paper to indicate what questions have and have
 not been answered in the summary.
 
 To make it as easy as possible to stick to this level of self-documentation 
-this repository (will) contain a small web interface which adds the summary 
-to the repository and edits this README. Feel free to fork and re-use :)!
-
-<!---
-[Title of paper](link to pdf) - [summary/notes](link to markdown) - time spent 
--->
-### 2019 - January
-* 
+this repository contains 2 helpful scripts which generate a baseline summary 
+to the repository and can edit this README. See `scripts/new_summary.py` and `scripts/update_readme.py`.
+Feel free to fork and re-use :)!
 
 
+<!---[Title of paper](link to pdf) - [summary/notes](link to markdown) - time spent-->
+<!---REST_OF_FILE_IS_AUTO_GENERATED-->
