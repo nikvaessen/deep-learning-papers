@@ -10,7 +10,19 @@ Topic(s): `multi-task`
 
 citation:
 ```
-
+@techreport{Ruder2017,
+abstract = {Multi-task learning (MTL) has led to successes in many applications of machine learning, from natural language processing and speech recognition to computer vision and drug discovery. This article aims to give a general overview of MTL, particularly in deep neural networks. It introduces the two most common methods for MTL in Deep Learning, gives an overview of the literature, and discusses recent advances. In particular, it seeks to help ML practitioners apply MTL by shedding light on how MTL works and providing guidelines for choosing appropriate auxiliary tasks.},
+archivePrefix = {arXiv},
+arxivId = {1706.05098v1},
+author = {Ruder, Sebastian},
+eprint = {1706.05098v1},
+file = {:C$\backslash$:/Users/NVAB73/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Ruder - Unknown - An Overview of Multi-Task Learning in Deep Neural Networks(2).pdf:pdf},
+institution = {Insight Centre for Data Analytics, NUI Galway},
+mendeley-groups = {multi-task learning},
+title = {{An Overview of Multi-Task Learning in Deep Neural Networks}},
+url = {http://sebastianruder.com/multi-task/index.},
+year = {2017}
+}
 ```
 
 ### Abstract
@@ -58,7 +70,3 @@ __*Are there any other implications based on this work?*__
 ### Additional notes or thoughts
 
 #### Future reading
-
-
-
-

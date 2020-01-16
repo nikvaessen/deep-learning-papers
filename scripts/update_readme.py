@@ -100,7 +100,7 @@ def main():
 
     for file in os.listdir(summaries_dir):
         info = get_json_from_summary(os.path.join(summaries_dir, file))
-        info["file_path"] = os.path.join("summaries", file)
+        info["file_path"] = f"summaries/{file}"
 
         summaries.append(info)
 
