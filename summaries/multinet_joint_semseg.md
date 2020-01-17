@@ -199,3 +199,15 @@ Average precision score [11]
 KITTI Vision Benchmark Suite [14]  
 Modnet: Moving object detection network [52]  
 Kitti road public benchmark [13]  
+Residual network [22]
+detection:
+ region proposal [31, 24, 25], [18, 46],
+ cnn region proposal: [10, 46]
+ 3d region proposal: [6, 5]
+ direct end-to-end: [51, 33, 54, 33]
+
+ segmentation:
+ all mentioned papers in related work are potential
+
+MTL:
+all metnioned papers in related work are potentially interesting
