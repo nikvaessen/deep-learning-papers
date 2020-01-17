@@ -28,7 +28,7 @@ year = {2019}
 
 __*What questions are the authors addressing?*__
 
-__*What is the major finding or scientific contribution*__
+__*What is the major finding or scientific contribution?*__
 
 __*What is the work's significance?*__
 

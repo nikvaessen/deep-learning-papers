@@ -17,7 +17,7 @@ citation:
 
 __*What questions are the authors addressing?*__
 
-__*What is the major finding or scientific contribution*__
+__*What is the major finding or scientific contribution?*__
 
 __*What is the work's significance?*__
 
@@ -58,7 +58,3 @@ __*Are there any other implications based on this work?*__
 ### Additional notes or thoughts
 
 #### Future reading
-
-
-
-

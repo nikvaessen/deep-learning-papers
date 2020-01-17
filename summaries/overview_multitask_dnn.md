@@ -29,7 +29,7 @@ __*What questions are the authors addressing?*__
 
 What is the current (2017) status of Multi-Task learning?  
 
-__*What is the major finding or scientific contribution*__
+__*What is the major finding or scientific contribution?*__
 
 Distilling the current knowledge about multi-task learning into a single source
 
@@ -100,8 +100,6 @@ commands
 also needs to be predicted (turn input feature into output feature) if it's not
 seen as a valuable feature
 7. Representation learning: Have one task be an auto encoder
-
-
 
 ### Additional notes or thoughts
 
