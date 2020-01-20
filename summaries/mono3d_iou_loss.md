@@ -48,17 +48,21 @@ __*If there are alternative approaches, how did they select this system?*__
 
 __*What would I do differently?*__
 
+### Experiments
+
+__*Which dataset(s) were used?*__
+
+__*What experiments were conducted*__
+
 ### Results
 
-__*What are the conclusions they draw from the data?*__
+__*What are the conclusions they draw from the experiments?*__
 
 __*How do these results answer the greater question identified in the abstract?*__
 
 __*Do the results lead to the final claims of the paper?*__
 
 ### Figures, Tables, and Data
-
-__*What data set(s) were used?*__
 
 __*Can you identify the results in the images/charts/graphs?*__
 
