@@ -103,4 +103,4 @@ A smaller network with less modeling power is not as accurate but quicker
 
 #### Future reading
 
-R-CNN, Fast R-CNN, Faster R-CNN
+R-CNN, Fast R-CNN, Faster R-CNN, Overfeat, DPM, Deep Multibox
