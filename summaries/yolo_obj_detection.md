@@ -10,6 +10,22 @@ Topic(s): `2d-object-detection`
 
 citation:
 ```
+@inproceedings{Redmon2016,
+archivePrefix = {arXiv},
+arxivId = {1506.02640},
+author = {Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali},
+booktitle = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+doi = {10.1109/CVPR.2016.91},
+eprint = {1506.02640},
+isbn = {9781467388504},
+issn = {10636919},
+mendeley-groups = {2d obj det},
+pages = {779--788},
+title = {{You only look once: Unified, real-time object detection}},
+url = {http://pjreddie.com/yolo/ https://arxiv.org/abs/1506.02640},
+volume = {2016-Decem},
+year = {2016}
+}
 
 ```
 
@@ -66,7 +82,7 @@ __*What are the conclusions they draw from the experiments?*__
 
 Yolo is fast but does not have good accuracy in comparison
 
-Yolo makes a lot of errors with small objects but not with false-posities/background. It can therefore be used to increase accuracy of faster RCNN
+Yolo makes a lot of errors with small objects but not with false-positives/background. It can therefore be used to increase accuracy of faster RCNN
 
 Yolo generalizes outside of the training data
 
