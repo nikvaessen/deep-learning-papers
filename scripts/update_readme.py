@@ -99,6 +99,9 @@ def main():
     summaries = []
 
     for file in os.listdir(summaries_dir):
+        if "assets" in file:
+            continue
+        
         info = get_json_from_summary(os.path.join(summaries_dir, file))
         info["file_path"] = f"summaries/{file}"
 
