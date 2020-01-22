@@ -27,7 +27,6 @@ Feel free to fork and re-use :)!
 ### 2020 - January
  * [Fast R-CNN](https://arxiv.org/abs/1504.08083) - [summary](summaries/fast_rcnn_2dobjd.md) - 180 minutes  
  * [Real-time Joint Object Detection and Semantic Segmentation Network for Automated Driving](https://arxiv.org/abs/1901.03912) - [summary](summaries/joint_2dobj_semseg_network.md) - 180 minutes  
- * [Real-time Joint Object Detection and Semantic Segmentation Network for Automated Driving](http://arxiv.org/abs/1901.03912) - [summary](summaries/joint_obj_sem_seg.md) - 90 minutes  
  * [Monocular 3D Object Detection and Box Fitting Trained End-to-End Using Intersection-over-Union Loss](http://arxiv.org/abs/1906.08070) - [summary](summaries/mono3d_iou_loss.md) - 180 minutes  
  * [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](http://arxiv.org/abs/1812.07179) - [summary](summaries/mono3d_pseudo_lidar.md) - 180 minutes  
  * [MultiNet: Real-time Joint Semantic Reasoning for Autonomous Driving](https://www.repository.cam.ac.uk/bitstream/handle/1810/279403/iv18_root-compressed.pdf?sequence=1&isAllowed=y) - [summary](summaries/multinet_joint_semseg.md) - 300 minutes  
