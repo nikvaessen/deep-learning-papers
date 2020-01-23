@@ -25,7 +25,8 @@ Feel free to fork and re-use :)!
 <!---[Title of paper](link to pdf) - [summary/notes](link to markdown) - time spent-->
 <!---REST_OF_FILE_IS_AUTO_GENERATED-->
 ### 2020 - January
- * [Fast R-CNN](https://arxiv.org/abs/1504.08083) - [summary](summaries/fast_rcnn_2dobjd.md) - 180 minutes  
+ * [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497) - [summary](summaries/faster_rcnn_2dobjd.md) - 300 minutes  
+ * [Fast R-CNN](https://arxiv.org/abs/1504.08083) - [summary](summaries/fast_rcnn_2dobjd.md) - 240 minutes  
  * [Real-time Joint Object Detection and Semantic Segmentation Network for Automated Driving](https://arxiv.org/abs/1901.03912) - [summary](summaries/joint_2dobj_semseg_network.md) - 180 minutes  
  * [Monocular 3D Object Detection and Box Fitting Trained End-to-End Using Intersection-over-Union Loss](http://arxiv.org/abs/1906.08070) - [summary](summaries/mono3d_iou_loss.md) - 180 minutes  
  * [Pseudo-LiDAR from Visual Depth Estimation: Bridging the Gap in 3D Object Detection for Autonomous Driving](http://arxiv.org/abs/1812.07179) - [summary](summaries/mono3d_pseudo_lidar.md) - 180 minutes  

@@ -1,10 +1,10 @@
 <!--
-{"title": "Fast R-CNN", "url": "https://arxiv.org/abs/1504.08083", "topics": "2d-object-detection", "date": "2020-01-22", "estimated_minutes": "180"}
+{"title": "Fast R-CNN", "url": "https://arxiv.org/abs/1504.08083", "topics": "2d-object-detection", "date": "2020-01-22", "estimated_minutes": "240"}
 -->
 ### Fast R-CNN
 
 Read on: 2020-01-22  
-Time spent: *180* minutes  
+Time spent: *240* minutes  
 Link to pdf: https://arxiv.org/abs/1504.08083  
 Topic(s): `2d-object-detection`
 
